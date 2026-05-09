@@ -3,7 +3,7 @@ pragma solidity ^0.8.24;
 
 import "@openzeppelin/contracts/access/AccessControl.sol";
 
-/// Experimenting with multi-role access — replacing Ownable in a treasury-style contract
+/// Experimenting with multi-role access - replacing Ownable in a treasury-style contract
 contract VaultWithRoles is AccessControl {
     bytes32 public constant DEPOSITOR_ROLE = keccak256("DEPOSITOR_ROLE");
     bytes32 public constant WITHDRAWER_ROLE = keccak256("WITHDRAWER_ROLE");

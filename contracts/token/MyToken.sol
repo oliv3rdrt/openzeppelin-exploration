@@ -28,7 +28,7 @@ contract MyToken is ERC20, ERC20Burnable, ERC20Pausable, AccessControl {
         _unpause();
     }
 
-    // Required override — ERC20Pausable hooks into _update
+    // Required override - ERC20Pausable hooks into _update
     function _update(address from, address to, uint256 value)
         internal
         override(ERC20, ERC20Pausable)

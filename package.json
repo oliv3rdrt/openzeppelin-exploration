@@ -1,7 +1,7 @@
 {
   "name": "openzeppelin-exploration",
   "version": "1.0.0",
-  "description": "Personal exploration of OpenZeppelin Contracts — ERC-20, ERC-721, AccessControl",
+  "description": "Personal exploration of OpenZeppelin Contracts - ERC-20, ERC-721, AccessControl",
   "scripts": {
     "compile": "hardhat compile",
     "test": "hardhat test",
